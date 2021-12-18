@@ -356,6 +356,7 @@ nav a::before {
 #image-slider ul li:nth-child(3) {
   background-image: url(../images/full-bg-03.jpg);
 }
+
 #image-slider ul li.active-img{
   left: 0;
 }
