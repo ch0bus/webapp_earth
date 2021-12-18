@@ -387,13 +387,16 @@ nav a::before {
   overflow: hidden;
 }
 .slide-caption {
-  text-align: right;
+  border: 2px sokid red;
+  text-align: left;
   right: 30px;
+                                    width: 80%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 .slide-caption h6 {
+  text-align: right;
   margin-top: 0px;
   font-size: 14px;
   text-transform: uppercase;
@@ -401,6 +404,7 @@ nav a::before {
   color: #fff;
 }
 .slide-caption h2 {
+  text-align: right;
   margin-top: 0px;
   font-size: 60px;
   text-transform: uppercase;
@@ -741,7 +745,7 @@ nav a::before {
     font-size: 21px;
   }
   .third-slide {
-    text-align: center;
+    
     margin: 0px;
   }
   .fourth-slide {
@@ -760,6 +764,11 @@ nav a::before {
     color: #fff;
     margin-top: 0px;
     margin-bottom: 20px;
+  }
+
+  .right-box {
+    float: left;
+    border: 3px solid black
   }
 
 }
