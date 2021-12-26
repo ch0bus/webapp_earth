@@ -12,6 +12,8 @@ def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('index.html',
                            the_title='Welcome to search4letters on the web!')
+            
+
 
 
 
