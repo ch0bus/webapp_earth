@@ -54,6 +54,8 @@ height=float(input("height`s room : "))
 choice=input("Wallpaper with raport?: ")
 if(choice=='y'):
     raport=float(input("raport: "))
+    areaWallpaper=area_total(length, height, raport)
+    print(areaWallpaper)
         
 areaWallpaper=area_total(length, height, raport)
 print(areaWallpaper)
